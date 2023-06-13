@@ -249,7 +249,7 @@ namespace GameFramework.Network
                 case ServiceType.TcpWithSyncReceive:
                     networkChannel = new TcpWithSyncReceiveNetworkChannel(name, networkChannelHelper);
                     break;
-
+                // todo UDP KCP
                 default:
                     throw new GameFrameworkException(Utility.Text.Format("Not supported service type '{0}'.", serviceType));
             }
