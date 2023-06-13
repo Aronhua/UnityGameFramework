@@ -20,6 +20,17 @@ namespace GameFramework.Network
         /// <summary>
         /// 使用同步接收的 TCP 网络服务。
         /// </summary>
-        TcpWithSyncReceive
+        TcpWithSyncReceive,
+        
+        /// <summary>
+        /// todo 添加UDP支持
+        /// </summary>
+        UDP,
+        
+        /// <summary>
+        /// todo 添加KCP支持
+        /// </summary>
+        KCP,
+        
     }
 }
